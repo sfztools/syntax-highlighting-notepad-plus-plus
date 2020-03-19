@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="sfz" ext="sfz" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="yes" Keywords3="no" Keywords4="yes" Keywords5="yes" Keywords6="yes" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">=</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">#define #include amp_keycenter amp_keytrack amp_random amp_veltrack ampeg_attack ampeg_attack_shape ampeg_decay ampeg_decay_shape ampeg_decay_zero ampeg_delay ampeg_dynamic ampeg_hold ampeg_release ampeg_release_shape ampeg_release_zero ampeg_start ampeg_sustain amplfo_delay amplfo_depth amplfo_depthchanaft amplfo_depthpolyaft amplfo_fade amplfo_freq amplfo_freqchanaft amplfo_freqpolyaft amplitude apan_depth apan_dry apan_freq apan_phase apan_waveform apan_wet bend_down bend_smooth bend_step bend_stepdown bend_stepup bend_up bitred bus comp_attack comp_gain comp_ratio comp_release comp_stlink comp_threshold count curve_index cutoff cutoff2 cutoff_chanaft cutoff_polyaft decim default_path delay delay_beats delay_cutoff delay_damphi delay_damplo delay_dry delay_feedback delay_filter delay_input delay_levelc delay_levell delay_levelr delay_lfofreq delay_moddepth delay_panc delay_panl delay_panr delay_random delay_resonance delay_samples delay_spread delay_time_tap delay_timec delay_timel delay_timer delay_wet direction directtomain disto_depth disto_dry disto_stages disto_tone disto_wet dsp_order effect1 effect2 effect3 effect4 end eq_bw eq_freq eq_gain eq_type fil2_gain fil2_keycenter fil2_keytrack fil2_type fil2_veltrack fil_gain fil_keycenter fil_keytrack fil_random fil_type fil_veltrack fileg_attack fileg_attack_shape fileg_decay fileg_decay_shape fileg_decay_zero fileg_delay fileg_depth fileg_dynamic fileg_hold fileg_release fileg_release_shape fileg_release_zero fileg_start fileg_sustain fillfo_delay fillfo_depth fillfo_depthchanaft fillfo_depthpolyaft fillfo_fade fillfo_freq fillfo_freqchanaft fillfo_freqpolyaft filter_cutoff filter_resonance filter_type gate_attack gate_release gate_stlink gate_threshold global_amplitude global_label global_volume group group_amplitude group_label group_volume hibend hibpm hichan hichanaft hikey hipolyaft hiprog hirand hitimer hivel image internal key load_end load_mode load_start lobend lobpm lochan lochanaft lokey loop_count loop_crossfade loop_end loop_mode loop_start loop_type loopend loopmode loopstart lopolyaft loprog lorand lotimer lovel master_amplitude master_label master_volume md5 noise_filter noise_level noise_step noise_stereo noise_tone note_offset note_polyphony note_selfmask octave_offset off_by off_curve off_mode off_shape off_time offby offset offset_random oscillator oscillator_detune oscillator_mod_depth oscillator_mode oscillator_multi oscillator_phase oscillator_quality oscillator_table_size output pan pan_keycenter pan_keytrack pan_law pan_veltrack param_offset phase phaser_depth phaser_feedback phaser_freq phaser_stages phaser_waveform phaser_wet pitch pitch_keycenter pitch_keytrack pitch_random pitch_veltrack pitcheg_attack pitcheg_attack_shape pitcheg_decay pitcheg_decay_shape pitcheg_decay_zero pitcheg_delay pitcheg_dynamic pitcheg_hold pitcheg_release pitcheg_release_shape pitcheg_release_zero pitcheg_start pitchlfo_delay pitchlfo_depth pitchlfo_depthchanaft pitchlfo_depthpolyaft pitchlfo_fade pitchlfo_freq pitchlfo_freqchanaft pitchlfo_freqpolyaft polyphony polyphony_group position region_label resonance resonance2 reverb_damp reverb_dry reverb_input reverb_predelay reverb_size reverb_tone reverb_type reverb_wet rt_dead rt_decay sample sample_quality script seq_length seq_position sostenuto_cc sostenuto_lo sostenuto_sw static_cyclic_level static_cyclic_time static_filter static_level static_random_level static_random_maxtime static_random_mintime static_stereo static_tone stop_beats strings_number sustain_cc sustain_lo sustain_sw sw_default sw_down sw_hikey sw_hilast sw_label sw_last sw_lokey sw_lolast sw_note_offset sw_octave_offset sw_previous sw_up sw_vel sync_beats sync_offset tdfir_dry tdfir_gain tdfir_impulse tdfir_wet transpose trigger tune type vendor_specific volume waveguide width xf_cccurve xf_keycurve xf_velcurve xfin_hikey xfin_hivel xfin_lokey xfin_lovel xfout_hikey xfout_hivel xfout_lokey xfout_lovel</Keywords>
+            <Keywords name="Keywords2">amp_velcurve_ ampeg_attack_oncc ampeg_attackcc ampeg_decay_curvecc ampeg_decay_oncc ampeg_decaycc ampeg_delay_oncc ampeg_delaycc ampeg_hold_curvecc ampeg_hold_oncc ampeg_holdcc ampeg_release_oncc ampeg_releasecc ampeg_start_oncc ampeg_startcc ampeg_sustain_curvecc ampeg_sustain_oncc ampeg_sustaincc amplfo_depth_oncc amplfo_depthcc amplfo_freqcc amplitude_cc amplitude_curvecc amplitude_oncc amplitude_smoothcc apan_depth_oncc apan_dry_oncc apan_freq_oncc apan_phase_oncc apan_wet_oncc bitred_curvecc bitred_oncc bitred_smoothcc bitred_stepcc bypass_oncc cutoff2_curvecc cutoff2_oncc cutoff2_smoothcc cutoff2_stepcc cutoff_cc cutoff_curvecc cutoff_oncc cutoff_smoothcc cutoff_stepcc decim_curvecc decim_oncc decim_smoothcc decim_stepcc delay_cc delay_cutoff_oncc delay_damphi_oncc delay_damplo_oncc delay_dry_oncc delay_feedback_oncc delay_input_oncc delay_lfofreq_oncc delay_moddepth_oncc delay_mode delay_oncc delay_panc_oncc delay_panl_oncc delay_panr_oncc delay_resonance_oncc delay_samples_oncc delay_spread_oncc delay_syncc_oncc delay_syncl_oncc delay_syncr_oncc delay_timec_oncc delay_timel_oncc delay_timer_oncc delay_wet_oncc disto_depth_oncc disto_dry_oncc disto_tone_oncc disto_wet_oncc eq_bw_oncc eq_freq_oncc eq_gain_oncc fileg_attack_oncc fileg_attackcc fileg_decay_oncc fileg_decaycc fileg_delay_oncc fileg_delaycc fileg_depth_oncc fileg_depthcc fileg_hold_oncc fileg_holdcc fileg_release_oncc fileg_releasecc fileg_start_oncc fileg_startcc fileg_sustain_oncc fileg_sustaincc fillfo_depth_oncc fillfo_depthcc fillfo_freqcc filter_cutoff_oncc filter_resonance_oncc gain_cc gain_oncc gate_oncc hicc hihdcc hint_ label_cc locc lohdcc noise_level_oncc noise_level_smoothcc noise_step_oncc noise_tone_oncc offset_cc offset_oncc on_hicc on_locc oscillator_detune_oncc oscillator_mod_depth_oncc oscillator_mod_smoothcc pan_cc pan_curvecc pan_oncc pan_smoothcc pan_stepcc phaser_depth_oncc phaser_feedback_oncc phaser_freq_oncc phaser_phase_oncc phaser_wet_oncc pitch_curvecc pitch_smoothcc pitch_stepcc pitcheg_attack_oncc pitcheg_decay_oncc pitcheg_delay_oncc pitcheg_depth pitcheg_depth_oncc pitch_oncc pitcheg_hold_oncc pitcheg_release_oncc pitcheg_start_oncc pitcheg_sustain pitcheg_sustain_oncc pitchlfo_depth_oncc pitchlfo_depthcc pitchlfo_freqcc resonance2_curvecc resonance2_oncc resonance2_smoothcc resonance2_stepcc resonance_cc resonance_curvecc resonance_oncc resonance_smoothcc resonance_stepcc reverb_damp_oncc reverb_dry_oncc reverb_input_oncc reverb_predelay_oncc reverb_size_oncc reverb_tone_oncc reverb_wet_oncc reverse_hicc reverse_locc set_cc set_hdcc start_hicc start_locc static_level_oncc stop_hicc stop_locc strings_wet_oncc tdfir_dry_oncc tdfir_wet_oncc tune_cc tune_curvecc tune_oncc tune_smoothcc tune_stepcc v volume_curvecc volume_oncc volume_smoothcc volume_stepcc width_curvecc width_oncc width_smoothcc width_stepcc xfin_hicc xfin_locc xfout_hicc xfout_locc eg eq fx lfo var</Keywords>
+            <Keywords name="Keywords3">&lt;control&gt; &lt;curve&gt; &lt;effect&gt; &lt;global&gt; &lt;group&gt; &lt;master&gt; &lt;region&gt;</Keywords>
+            <Keywords name="Keywords4">$ *</Keywords>
+            <Keywords name="Keywords5">com.</Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="505050" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="7F7F7F" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="256" />
+            <WordsStyle name="LINE COMMENTS" fgColor="7F7F7F" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="512" />
+            <WordsStyle name="NUMBERS" fgColor="505050" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF3F00" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF3F00" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="007F00" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
