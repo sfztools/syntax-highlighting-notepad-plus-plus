@@ -1,5 +1,8 @@
 # SFZ Format Filetype Syntax Highlighting for Notepad++
 
+Based on the [Peter L. Jones](http://drealm.info/sfz/)
+syntax highlighting sfz language file for [Notepad++](https://notepad-plus-plus.org/).
+
 ![Screenshot](screenshot.png)
 
 ## Installation
